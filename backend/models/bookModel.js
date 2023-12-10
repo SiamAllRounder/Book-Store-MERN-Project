@@ -21,4 +21,4 @@ let bookSchema = mongoose.Schema(
 );
 
 // export const Cat = mongoose.model('Cat', { name: String });
-export let Book = mongoose.model("Cat", bookSchema);
+export let Book = mongoose.model("Book", bookSchema);

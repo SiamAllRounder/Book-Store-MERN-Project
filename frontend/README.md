@@ -1,8 +1,27 @@
-# React + Vite
+```
+Siam@DESKTOP-JCVALB7 MINGW64 ~/Desktop/TESTLAB/LG/Book Store Mern Project (master)
+$ mongosh
+Current Mongosh Log ID: 6575ac34a8a90d1213eb30c8
+Connecting to:          mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.0
+Using MongoDB:          7.0.4
+Using Mongosh:          2.1.0
+mongosh 2.1.1 is available for download: https://www.mongodb.com/try/download/shell
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
-Currently, two official plugins are available:
+------
+   The server generated these startup warnings when booting
+   2023-12-09T14:19:17.041+06:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+test> exit
+
+Siam@DESKTOP-JCVALB7 MINGW64 ~/Desktop/TESTLAB/LG/Book Store Mern Project (master)
+$ node -v && npm -v
+v18.8.0
+8.18.0
+
+Siam@DESKTOP-JCVALB7 MINGW64 ~/Desktop/TESTLAB/LG/Book Store Mern Project (master)
+$
+
+```

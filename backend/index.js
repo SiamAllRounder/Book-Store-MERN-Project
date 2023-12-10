@@ -35,7 +35,7 @@ mongoose
   .connect(MongoDBConnectionString)
   .then(() => {
     console.log(
-      "express server connected to mongobd database with atlas remote"
+      "express server connected to mongo db database on local machine windows 10"
     );
     ExpressServer.listen(PORT, () => {
       console.log(`Express Server is listening to port: ${PORT}`);
