@@ -33,7 +33,7 @@ router.post("/", async (request, response) => {
 // Route for Get All Books Remote Mongo DB Database with Atlas
 router.get("/", async (request, response) => {
   try {
-    let books = await Book.find({});
+    let books = await Book.find({}).sort({ createdAt: -1 }).limit(3);
 
     return response.status(200).json({
       count: books.length,
